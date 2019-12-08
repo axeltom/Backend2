@@ -4,10 +4,10 @@ var mysql = require('mysql');
 
 //local mysql db connection
 var connection = mysql.createConnection({
-    host     : '10.129.5.167',
-    user     : 'root',
-    password : '',
-    database : 'eventos'
+    host     : 'db4free.net',
+    user     : 'axeltom',
+    password : '12345678',
+    database : 'eventosaxel'
 });
 
 connection.connect(function(err) {
