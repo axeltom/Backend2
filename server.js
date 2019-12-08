@@ -7,10 +7,10 @@ const express = require('express'),
 const mysql = require('mysql');
 // connection configurations
 const mc = mysql.createConnection({
-    host: '10.129.5.167',
-    user: 'root',
-    password: '',
-    database: 'eventos'
+    host: 'db4free.net',
+    user: 'axeltom',
+    password: '12345678',
+    database: 'eventosaxel'
 });
  
 // connect to database
