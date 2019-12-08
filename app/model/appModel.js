@@ -32,7 +32,7 @@ Task.createTask = function (newTask, result) {
 };
 Task.createUser = function (id,nombre,localidad,edad, result) {    
     console.log("try to create a user");
-    const query ="INSERT INTO USUARIO VALUES(?,?,?,?)";
+    const query ="INSERT INTO usuario VALUES(?,?,?,?)";
     console.log(query);
     sql.query(query, [id,nombre,localidad,edad], function (err, res) {
             
