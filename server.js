@@ -7,9 +7,9 @@ const express = require('express'),
 const mysql = require('mysql');
 // connection configurations
 const mc = mysql.createConnection({
-    host: 'localhost',
+    host: '10.129.5.167',
     user: 'root',
-    password: '12345',
+    password: '',
     database: 'eventos'
 });
  
